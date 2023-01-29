@@ -1,2 +1,2 @@
 # DataSafari
-DataSafari is a web-based open source tool that helps users to explore their ML datasets easily, visualize datapoints, detect and correct outliers, and gain insights about class imbalances and other statistics.
+DataSafari is an open-source web-based package that helps users explore their machine learning datasets. With DataSafari, you can easily upload your data, visualize datapoints, detect and visualize outliers, and gain insights about class imbalances and other key statistics. DataSafari also gives you the option to correct any outliers found in your database. Whether you're a data scientist, researcher, or just looking to gain a better understanding of your data, DataSafari is the tool for you.
