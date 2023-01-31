@@ -1,0 +1,118 @@
+/* add style for banner element */
+#banner {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem;
+    background-image: url(https://lexica-serve-encoded-images2.sharif.workers.dev/full_jpg/7a303d4a-5e25-4c2d-b75b-52c3300668cf);
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+}
+
+/* update sidebar style to position it below the banner */
+#sidebar {
+    position: fixed;
+    top: 8rem;
+    left: 0;
+    bottom: 0;
+    width: 12rem;
+    padding: 2rem 1rem;
+}
+
+/* update content style to position it below the banner and to the right of the sidebar */
+#content {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    padding: 2rem 1rem;
+    z-index: 1000;
+}
+
+#content2 {
+    font-size: 1.2rem;
+    width: 70%;
+    text-align: center;
+    margin-left: 12rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    z-index: 1000;
+}
+
+.sidebar-style {
+    position: fixed;
+    top: 8rem;
+    left: 0;
+    bottom: 0;
+    width: 12rem;
+    padding: 2rem 1rem;
+}
+
+.banner-style {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem;
+    background-image: url(https://lexica-serve-encoded-images2.sharif.workers.dev/full_jpg/7a303d4a-5e25-4c2d-b75b-52c3300668cf);
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+}
+
+.sidebar-style {
+    position: fixed;
+    top: 8rem;
+    bottom: 0;
+    width: 12rem;
+    padding: 2rem 1rem;
+}
+
+.content-style {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: 2rem 1rem;
+    z-index: 1000;
+}
+
+.content_style2 {
+    color: white;
+    font-size: 1.2rem;
+    width: 70%;
+    text-align: center;
+    margin-left: 12rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    padding: 2rem 1rem;
+    z-index: 1000;
+}
+
+@keyframes rocket-animation {
+    0% {
+        transform: translateX(0%) translateY(0%);
+    }
+
+    50% {
+        transform: translateX(20%) translateY(20%);
+    }
+
+}
+
+#animated-rocket {
+    animation: rocket-animation 5s linear infinite;
+}
+
+.rocket-animation {
+    z-index: 1000;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    animation: rocket-animation 2s linear infinite;
+    width: 200px;
+    height: 200px;
+    top: 500px;
+    left: 1100px;
+}
